@@ -1,0 +1,48 @@
+body {
+    background-color: #c7ecc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    animation: rotate 0s linear infinite;
+    margin: 10px;
+}
+
+.blue-box {
+    background-color: #87ceeb;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 5px;
+}
+
+.hyperlink {
+    background-color: #87ceeb;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}

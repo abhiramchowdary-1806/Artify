@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Artify</title>
+    <style>
+        body {
+            background-color: #c7ecc7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            background-color: orange;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            animation: rotate 4s linear infinite;
+            margin: 10px;
+        }
+
+        .blue-box {
+            background-color: #87ceeb;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .form {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 10px;
+            margin: 5px;
+        }
+
+        .hyperlink {
+            background-color: #87ceeb;
+            padding: 20px;
+            border-radius: 50%;
+            text-align: center;
+            margin-top: 50px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Welcome to Artify</h1>
+    <div class="box">
+        <h2>For Investors</h2>
+        <form action="https://www.flipkart.com">
+            <input type="text" placeholder="Username"><br>
+            <input type="password" placeholder="Password"><br>
+            <button class="blue-box" type="submit">Log in</button>
+            <button class="blue-box" type="submit">Sign up</button>
+        </form>
+    </div>
+    <div class="box">
+        <h2>For Skilled Workers</h2>
+        <form action="https://www.amazon.com">
+            <input type="text" placeholder="Username"><br>
+            <input type="password" placeholder="Password"><br>
+            <button class="blue-box" type="submit">Log in</button>
+            <button class="blue-box" type="submit">Sign up</button>
+        </form>
+    </div>
+    <a class="hyperlink" href="https://www.google.com">Explore about arts</a>
+</body>
+</html>
